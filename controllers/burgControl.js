@@ -16,7 +16,9 @@ router.get("/",function(req,res){
 });
 
 router.post("/api/burgs",function(req,res){
-    burg.create("name",req.body.name)
+    burg.create(req.body.name,function(result){
+        res.json({id: result.insertId});//i have no idea what this does but it worked on the catapp
+    });
 })
 
 module.exports=router;
