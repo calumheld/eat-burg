@@ -1,1 +1,2 @@
 # eat-burg
+i feel that i am very close to getting this to work, but i have no idea what to troubleshoot. something is wrong with how i am connecting the front end to the back end but i have no idea what it is. possibly because i have no idea why we'd be using so many steps for something so simple.
